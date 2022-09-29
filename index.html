@@ -5,32 +5,24 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Sigma Quiz</title>
 </head>
 <body>
-<div class="quiz-container" id="quiz">
-    <div class="quiz-header">
-        <h2 id="question">Who is Andrew Tate?</h2>
-        <ul>
-            <li>
-                <input type="radio" name="answer" id="a" class="answer">
-                <label for="a" id="a_text">Brokey</label>
-            </li>
-            <li>
-                <input type="radio" name="answer" id="b" class="answer">
-                <label for="b" id="b_text">Misogynist</label>
-            </li>
-            <li>
-                <input type="radio" name="answer" id="c" class="answer">
-                <label for="c" id="c_text">Top G</label>
-            </li>
-            <li>
-                <input type="radio" name="answer" id="d" class="answer">
-                <label for="d" id="d_text">Woman beater</label>
-            </li>
-        </ul>
+    <div class="container">
+        <div id="question-container" class="hide"></div>
+        <div id="question">Who is Andrew Tate?</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">a brokey</button>
+            <button class="btn">a misogynist</button>
+            <button class="btn">a women beater</button>
+            <button class="btn">Top G!</button>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
     </div>
-    <button id="submit">Submit</button>
-</div>
+    <script src="script.js"></script>
 </body>
 </html>
