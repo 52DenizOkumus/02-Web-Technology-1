@@ -167,7 +167,7 @@ const questions = [
         question: 'Who is Micheal Jordan?',
         answers: [
             {text: 'The greatest basketball player of all time', correct: true},
-            {text: 'the second greatest basketball player of all time', correct: false},
+            {text: 'The second greatest basketball player of all time', correct: false},
             {text: 'He switched his career from basketball to swimming and returned back to basketball again', correct: false},
             {text: 'He switched his career from basketball to baseball and returned back to basketball again', correct: true},
         ]
