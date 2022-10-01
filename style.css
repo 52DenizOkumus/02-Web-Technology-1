@@ -66,6 +66,7 @@ body.wrong {
 
 .btn.wrong {
     --hue: var(--hue-wrong);
+    color: brown;
 }
 
 .start-btn, .next-btn {
@@ -80,6 +81,3 @@ body.wrong {
     align-items: center;
 }
 
-.hide {
-    display: none;
-}

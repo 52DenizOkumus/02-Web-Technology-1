@@ -1,4 +1,4 @@
-const startButton = document.querySelector('#start-btn');
+const startButton = document.getElementById('start-btn');
 const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
@@ -83,12 +83,93 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'Who is Andrew Tate?',
+        question: 'Andrew Tate is a...?',
         answers: [
-            {text: 'Top G!', correct: true},
-            {text: 'a women beater', correct: false},
-            {text: 'a misogynist', correct: false},
-            {text: 'a brokey', correct: false},
+            {text: 'A Top G', correct: true},
+            {text: 'A women beater', correct: false},
+            {text: 'A misogynist', correct: false},
+            {text: 'A brokey', correct: false},
+        ]
+    },
+    {
+        question: 'Zyzz was...?',
+        answers: [
+            {text: 'Was a sickkunt', correct: true},
+            {text: 'Was the god of aesthetics', correct: true},
+            {text: 'Was a Sadkunt', correct: false},
+            {text: 'Was the son of Zeus, brother of Hercules, father of aesthetics', correct: true},
+        ]
+    },
+    {
+        question: 'Who was Steve Jobs?',
+        answers: [
+            {text: 'Was the founder of Apple', correct: true},
+            {text: 'Was the founder of Nokia', correct: false},
+            {text: 'Was the founder of Microsoft', correct: false},
+            {text: 'Was the founder of Samsung', correct: false},
+        ]
+    },
+    {
+        question: 'What is James Dean known for?',
+        answers: [
+            {text: 'Was a sigma male before the term existed', correct: true},
+            {text: 'Was a model for vogue', correct: false},
+            {text: 'Was the first James Bond actor', correct: false},
+            {text: 'Was a cousin to Elvis Presley', correct: false},
+        ]
+    },
+    {
+        question: 'What is Muhammad Ali known for?',
+        answers: [
+            {text: 'Was a singer', correct: false},
+            {text: 'Was a world-famous boxer ', correct: true},
+            {text: 'Was a scientist', correct: false},
+            {text: 'Was a world-famous muay thai fighter', correct: false},
+        ]
+    },
+    {
+        question: 'What is known about Bruce Lee?',
+        answers: [
+            {text: 'Was a martial art legend', correct: true},
+            {text: 'Was a stand-up comedian', correct: false},
+            {text: 'Was a world-famous painter', correct: false},
+            {text: 'Was a student of the famous kung fu master Ip Man', correct: true},
+        ]
+    },
+    {
+        question: 'Leonardo Da Vinci, well-known expertise?',
+        answers: [
+            {text: 'Was a painter, sculptor, architect, dancer and scientist', correct: false},
+            {text: 'Was a painter, sculptor, architect, musician and scientist', correct: true},
+            {text: 'Was a painter, martial artist, architect, musician and scientist', correct: false},
+            {text: 'Was a painter, sculptor, architect, musician and president', correct: false},
+        ]
+    },
+    {
+        question: 'Leonidas (I) was...?',
+        answers: [
+            {text: 'Was a king of the Greek city-state of Sparta', correct: true},
+            {text: 'Was the king of Persia', correct: false},
+            {text: 'Was the king who Led a small band of Greek allies at the Battle of Thermopylae', correct: true},
+            {text: 'Was the king of Greek', correct: false},
+        ]
+    },
+    {
+        question: 'What is Arnold Schwarzenegger known for?',
+        answers: [
+            {text: 'Is known for his eight times Mr. Olympia', correct: false},
+            {text: 'The first man on the moon', correct: false},
+            {text: 'Bodybuilder, film actor and politician ', correct: true},
+            {text: 'The CEO of Tesla', correct: false},
+        ]
+    },
+    {
+        question: 'Who is Micheal Jordan?',
+        answers: [
+            {text: 'The greatest basketball player of all time', correct: true},
+            {text: 'the second greatest basketball player of all time', correct: false},
+            {text: 'He switched his career from basketball to swimming and returned back to basketball again', correct: false},
+            {text: 'He switched his career from basketball to baseball and returned back to basketball again', correct: true},
         ]
     },
 ]
