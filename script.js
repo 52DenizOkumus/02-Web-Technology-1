@@ -150,7 +150,7 @@ const questions = [
         answers: [
             {text: 'Was a king of the Greek city-state of Sparta', correct: true},
             {text: 'Was the king of Persia', correct: false},
-            {text: 'Was the king who Led a small band of Greek allies at the Battle of Thermopylae', correct: true},
+            {text: 'Was the king who led a small band of Greek allies at the Battle of Thermopylae', correct: true},
             {text: 'Was the king of Greek', correct: false},
         ]
     },
