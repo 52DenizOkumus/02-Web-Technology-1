@@ -113,7 +113,7 @@ const questions = [
         question: 'What is James Dean known for?',
         answers: [
             {text: 'Was a sigma male before the term existed', correct: true},
-            {text: 'Was a model for vogue', correct: false},
+            {text: 'Was a model for Vogue', correct: false},
             {text: 'Was the first James Bond actor', correct: false},
             {text: 'Was a cousin to Elvis Presley', correct: false},
         ]
