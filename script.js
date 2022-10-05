@@ -26,7 +26,6 @@ function startGame() {
 function setNextQuestion() {
     resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex])
-
 }
 
 function showQuestion(question) {
@@ -110,7 +109,7 @@ const questions = [
         ]
     },
     {
-        question: 'What is James Dean known for?',
+        question: 'James Dean known for?',
         answers: [
             {text: 'Was a sigma male before the term existed', correct: true},
             {text: 'Was a model for Vogue', correct: false},
@@ -119,7 +118,7 @@ const questions = [
         ]
     },
     {
-        question: 'What is Muhammad Ali known for?',
+        question: 'What was Muhammad Ali known for?',
         answers: [
             {text: 'Was a singer', correct: false},
             {text: 'Was a world-famous boxer ', correct: true},
@@ -128,7 +127,7 @@ const questions = [
         ]
     },
     {
-        question: 'What is known about Bruce Lee?',
+        question: 'What was known about Bruce Lee?',
         answers: [
             {text: 'Was a martial art legend', correct: true},
             {text: 'Was a stand-up comedian', correct: false},
