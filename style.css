@@ -21,6 +21,11 @@ body {
     background-color: hsl(var(--hue),100%, 20%);
 }
 
+#question {
+    font-size: 22.5px;
+    font-weight: bold;
+}
+
 body.correct {
     --hue: var(--hue-correct);
 }
@@ -30,7 +35,8 @@ body.wrong {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
+    height: 330px;
     max-width: 80%;
     background-color: whitesmoke;
     border-radius: 5px;
@@ -51,6 +57,8 @@ body.wrong {
     background-color: hsl(var(--hue), 50%, 85%);
     border-radius: 5px;
     padding: 5px 10px;
+    height: 90px;
+    font-size: large;
     color: black;
     outline: none;
 }
@@ -70,7 +78,8 @@ body.wrong {
 }
 
 .start-btn, .next-btn {
-    font-size: 1rem;
+    font-size: large;
+    height: auto;
     font-weight: bold;
     padding: 10px 20px;
 }
