@@ -171,4 +171,13 @@ const questions = [
             {text: 'He switched his career from basketball to baseball and returned back to basketball again', correct: true},
         ]
     },
+    {
+        question: 'Who is the goat of hip-hop?',
+        answers: [
+            {text: 'Shawn Corey Carter aka. Jay-Z', correct: false},
+            {text: 'The Notorious B.I.G aka. Biggie Smalls', correct: false},
+            {text: 'Tupac Amaru Shakur aka. 2Pac', correct: true},
+            {text: 'Curtis James Jackson III aka. 50 Cent', correct: false},
+        ]
+    },
 ]
